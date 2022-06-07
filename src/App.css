@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+p{
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+
+
+.App{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://services.meteored.com/img/article/efectos-domino-creados-por-los-oceanos-que-ya-cambian-el-clima-global-319551-1_1024.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Card{
+    background-color: rgba(255, 255, 255, 0.619);
+    border-radius: 10px;
+    box-shadow: 2px 5px 3px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns:  50% 50%;
+    width: 100%;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer img{
+    width: 100%;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+button{
+    background: none;
+    border-radius: 15px;
+    border: solid 3px black;
+    color: black;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+button:hover{
+    background-color: rgba(25, 25, 25, 0.134);
+    transition: 0.5s;
+}
+
+@media(max-width: 1050px){
+    p{
+        font-size: 2rem;
+    }
+
+    .Card{
+        width: 80%;
+        padding: 20px;
+        gap: 30px;
+    }
+    
+    .imgContainer{
+        margin-bottom: 20px;
+    }
+
+    .gridContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
