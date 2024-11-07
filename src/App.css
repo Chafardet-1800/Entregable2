@@ -17,13 +17,12 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://services.meteored.com/img/article/efectos-domino-creados-por-los-oceanos-que-ya-cambian-el-clima-global-319551-1_1024.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .Card{
-    background-color: rgba(255, 255, 255, 0.619);
+    background-color: rgba(225, 224, 224, 0.801);
     border-radius: 10px;
     box-shadow: 2px 5px 3px;
     width: 50%;

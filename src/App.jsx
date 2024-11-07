@@ -30,9 +30,10 @@ function App() {
     
   }, [])
 
+  const backgroundImage = Math.floor(Math.random() * 5);
 
   return (
-    <div className='App'>
+    <div className='App' style={{backgroundImage: `url(src/assets/images/backgroundImage-${backgroundImage}.jpg)`}}>
       {isLoading
 
        ? 

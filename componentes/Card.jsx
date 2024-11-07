@@ -17,7 +17,7 @@ const Card = ({Data, Icon}) => {
   }
   return (
     <div className='Card'>
-        <h1 className='Title'>Wheather App</h1>
+        <h1 className='Title'>Meteorologist</h1>
         <p className='subTitle'>{Data.name}</p>
         <div className='gridContainer'>
             <div className='imgContainer'>
